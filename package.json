@@ -4,8 +4,6 @@
 	"description": "",
 	"main": "main.ts",
 	"scripts": {
-		"build-server-dev": "x4build node monitor=main.js",
-		"build-server-dev (debug)": "x4build node watch"
 	},
 	"keywords": [],
 	"author": "",
@@ -16,8 +14,7 @@
 		"express-session": "^1.17.3"
 	},
 	"devDependencies": {
-		"@types/express": "^4.17.13",
-		"x4build": "latest"
+		"@types/express": "^4.17.13"
 	},
 	"x4build": {
 		"postBuild": [
